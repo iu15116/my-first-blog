@@ -44,3 +44,26 @@ git push -u origin master
 python manage.py runserver
 git status
 git add --all .
+git add --all 
+git status
+git commit -m "Changed the HTML for the site."
+git push
+python manage.py shell
+python manage.py shell
+Post.objects.all() Traceback (most recent call last):
+NameError: name 'Post' is not defined
+from blog.models import Post
+source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/owz229ugh2r/vars.txt) && cd ${PWD}
+python3 manage.py shell
+python manage.py shell
+source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/ef3au67udd9/vars.txt) && cd ${PWD}
+python3 manage.py shell
+python3 manage.py runserver
+$ git status
+[...]
+$ git add --all .
+$ git status
+[...]
+$ git commit -m "Modified templates to display posts from database."
+[...]
+git status
