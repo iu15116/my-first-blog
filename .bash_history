@@ -37,3 +37,10 @@ git status
 On branch master
 Initial commit
 Untracked files:
+git add --all .
+git commit -m "My Django Girls app, first commit"
+git remote add origin https://github.com/iu15116/my-first-blog.git
+git push -u origin master
+python manage.py runserver
+git status
+git add --all .
